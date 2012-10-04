@@ -43,7 +43,7 @@ If you want to expand <code><img></code> elements into just their <code>@href</c
 
 <pre><code>&lt;?php
 
-$raw_string = 'Hah! IndieWebCamp group animated gif: <img src="https://dl.dropbox.com/u/49437/share/2012-07/30-gif-oBpKA1/f/animated.gif" alt="animated gif">';
+$raw_string = 'Hah! IndieWebCamp group animated gif: &lt;img src="https://dl.dropbox.com/u/49437/share/2012-07/30-gif-oBpKA1/f/animated.gif" alt="animated gif"&gt;';
 $uri = 'http://waterpigs.co.uk/notes/216'; // Another real example
 
 $truncated = text\truncate($raw_string, $length=140, $uri=$uri, $urilen=20);
