@@ -21,7 +21,7 @@ If you’re implementing [POSSE](http://indiewebcamp.com/POSSE) to syndicate you
 
 Typical usage: Syndicating a note out to Twitter.
 
-<pre><code><?php
+<pre><code>&lt;?php
 
 $raw_string = 'If you’re using Chome and you quit accidentally, losing important text forever, don’t panic! It can be found in /Application Support/Google/Chrome/Default/Last Session (on a Mac) with a bit of digging around.';
 $uri = 'http://waterpigs.co.uk/notes/198'; // Real example
@@ -41,7 +41,7 @@ See the docblock on the function for more details.
 
 If you want to expand <code><img></code> elements into just their <code>@href</code> instead of stripping them out completely, the <code>expand_img()</code> function handles that:
 
-<pre><code><?php
+<pre><code>&lt;?php
 
 $raw_string = 'Hah! IndieWebCamp group animated gif: <img src="https://dl.dropbox.com/u/49437/share/2012-07/30-gif-oBpKA1/f/animated.gif" alt="animated gif">';
 $uri = 'http://waterpigs.co.uk/notes/216'; // Another real example
