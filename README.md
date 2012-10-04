@@ -39,7 +39,7 @@ See the docblock on the function for more details.
 
 ### Supporting Functions
 
-If you want to expand <code><img></code> elements into just their <code>@href</code> instead of stripping them out completely, the <code>expand_img()</code> function handles that:
+If you want to expand <code>&lt;img&gt;</code> elements into just their <code>@href</code> instead of stripping them out completely, the <code>expand_img()</code> function handles that:
 
 <pre><code>&lt;?php
 
